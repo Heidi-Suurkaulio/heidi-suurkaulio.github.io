@@ -1,3 +1,24 @@
-details p {
-    border: dashed black;
+body {
+    background-color: rgb(240, 248, 255);
+    margin: 1em 2em;
+}
+h1 {
+    text-align: center;
+}
+details summary:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+.menetelmat details p {
+    border: thin dashed black;
+    background-color: white;
+}
+.tehtavat details summary {
+    background-color: rgb(247, 252, 255);
+    text-transform: uppercase;
+}
+footer {
+    border-top: thin dashed black;
+    padding-top: 1em;
+    text-align: center;
 }
