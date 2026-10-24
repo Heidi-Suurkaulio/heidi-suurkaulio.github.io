@@ -5,6 +5,13 @@ body {
 h1 {
     text-align: center;
 }
+a {
+    color: rgb(0, 111, 208);
+}
+a:hover {
+    font-weight: bold;
+    color: rgb(0, 48, 89);
+}
 details summary:hover {
     cursor: pointer;
     font-weight: bold;
