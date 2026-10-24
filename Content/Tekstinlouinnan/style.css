@@ -2,6 +2,22 @@ body {
     background-color: rgb(240, 248, 255);
     margin: 1em 2em;
 }
+nav {
+  border-bottom: thin dashed black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: black;
+}
+
 h1 {
     text-align: center;
 }
@@ -23,6 +39,9 @@ details summary:hover {
 .tehtavat details summary {
     background-color: rgb(247, 252, 255);
     text-transform: uppercase;
+}
+.nodisclist {
+    list-style-type: none;
 }
 footer {
     border-top: thin dashed black;

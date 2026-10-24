@@ -7,11 +7,19 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../../index.html">
+                    Etusivu</a>
+            </li>
+        </ul>
+    </nav>
     <h1>
         Tehtävät ja linkkilista
     </h1>
     <p>
-        Tehtävät ja linkkilista Laadullisten aineistojen työmenetelmät historiatieteessä, syyslukukausi 2026 
+        Tehtävät ja linkkilista Laadullisten aineistojen työmenetelmät historiatieteessä, syyslukukausi 2026
         tekstinlouhinnan moduuliin.
     </p>
     <div class="tehtavat">
@@ -19,7 +27,7 @@
             Osio 1
         </h2>
         <p>
-            Yleinen esittely tekstinlouhinnasta ja sen käytöstä 
+            Yleinen esittely tekstinlouhinnasta ja sen käytöstä
             historiantutkimuksessa sekä vakoilussa
         </p>
         <details>
@@ -85,9 +93,9 @@
                 tehtävä 1
             </summary>
             <p>
-                Tutustutaan frekvenssin käsitteeseen. Käytetään työkaluna 
-                <a href="https://trends.google.com/trends/">Googlen Trends–palevelua</a>. 
-                Tutustukaa palveluun ja säätäkää hakualueeseen ja aikarajaukseen 
+                Tutustutaan frekvenssin käsitteeseen. Käytetään työkaluna
+                <a href="https://trends.google.com/trends/">Googlen Trends–palevelua</a>.
+                Tutustukaa palveluun ja säätäkää hakualueeseen ja aikarajaukseen
                 liittyviä asetuksia. <br>
                 Keksikää fraasi, joka on:
             </p>
@@ -109,7 +117,7 @@
             </summary>
             <p>
                 Jatketaan frekvenssien teemaa. Käytetään työkaluna ilmaista verkossa
-                toimivaa <a href="https://voyant-tools.org/">Voyant Toolsia</a>. 
+                toimivaa <a href="https://voyant-tools.org/">Voyant Toolsia</a>.
                 Valitse sopiva lyhyehkö teksti kuten vanha essee
                 tai verkkosivu ja syötä se työkaluun. Tarkastellaan tuloksia:
             </p>
@@ -141,8 +149,9 @@
             </p>
             <p>
                 Sanapilvet menettivät suosionsa ja katosivat 2020-luvun taitteessa. Miksi?<br>
-                Lukekaa Marti Hearst’n 
-                <a href="https://www.ischool.berkeley.edu/news/2019/word-clouds-we-cant-make-them-go-away-so-lets-improve-them">artikkeli</a> 
+                Lukekaa Marti Hearst’n
+                <a
+                    href="https://www.ischool.berkeley.edu/news/2019/word-clouds-we-cant-make-them-go-away-so-lets-improve-them">artikkeli</a>
                 ja pohtikaa mitkä ovat sanapilvien
                 vahvuuksia ja heikkouksia, ja voiko niitä silti käyttää tiedon esittämiseen?
             </p>
@@ -152,7 +161,7 @@
                 tehtävä 4
             </summary>
             <p>
-                Selvittäkään mitä tarkoittaa termi "algospeak" tai "Voldemorttaaminen" 
+                Selvittäkään mitä tarkoittaa termi "algospeak" tai "Voldemorttaaminen"
                 ja miten se liittyy tekstinlouhintaan? <br>
                 Pohtikaa lisäksi:
             </p>
@@ -171,12 +180,219 @@
         <p>
             Tekstinlouhinnan tekniikat ja työkalut
         </p>
+        <details>
+            <summary>
+                tekstinlouhinnan työvaiheet
+            </summary>
+            <ol>
+                <li>
+                    Aineiston kerääminen
+                </li>
+                <li>
+                    Aineiston siistiminen ja esikäsittely
+                </li>
+                <li>
+                    Tekstiaineiston muuttaminen numeroiksi
+                </li>
+                <li>
+                    Tekstinlouhinnan mallien käyttö
+                </li>
+                <li>
+                    Tulosten arviointi (validointi)
+                </li>
+                <li>
+                    Tulosten tulkinta
+                </li>
+            </ol>
+            <p>
+                <strong>
+                    Työvaiheet eivät yleensä mene näin siistissä
+                    järjestyksessä, ja usein eri työvaiheita pitää
+                    toistaa tai uusia
+                </strong>
+            </p>
+        </details>
+        <details>
+            <summary>
+                tehtävä 1
+            </summary>
+            <p>
+                Katsokaa Otto Tarkan keräämä lista suomalaisista yleissanoista:
+                <a href="https://github.com/OttoTarkka/finnish_stopwords/blob/main/finnish_stopwords.txt">Finnish
+                    stopwords</a>.
+                Miettikää mitkä ovat yleissanoja seuraavissa teksteissä:
+            </p>
+            <blockquote>
+                Ollako vai ei olla, siinä pulma: <br>
+                Jalompaa onko hengen kärsiä <br>
+                Kaikk' inhan onnen iskut sekä nuolet <br>
+                Vai käydä miekkaan tuskain merta vastaan,<br>
+                Lopettain kaikki? – Kuolla, – nukkua, <br>
+                Ei muuta; – luulla, uness' että päättyy <br>
+                -- Shakespeare (suom. Paavo Cajander)
+            </blockquote>
+            <blockquote>
+                Linnun tyypillinen ääni on varismainen mutta hiljaisempi rääkynä, jota
+                närhi saattaa joskus matkia erehdyttävästi. Laulu on hiljaista, närhimäistä
+                tai harakkamaista kitinää ja narinaa.<br>
+                -- Wikipeida: Pähkinähakki
+            </blockquote>
+        </details>
+        <details>
+            <summary>
+                tehtävä 2
+            </summary>
+            <p>
+                Jatketaan yleissanojen teemaa:
+                poistakaa tekstieditorilla (esimerkiksi Notepad) tai muulla
+                tekstinkäsittelyohjelmalla yleissanoja viime luennolla käytetystä
+                tekstipätkästä.
+            </p>
+            <p>
+                Tehdään nyt sama analyysi uudelleen
+                <a href="https://voyant-tools.org/">Voyant tools</a>
+                palvelussa. Miltä tulokset nyt näyttävät?
+            </p>
+            <p>
+                Sanapilviesitys allekirjoittaneen pro-gradutyön esikäsitellystä
+                johdannosta. Mistä aiheesta gradu mahtaa olla?
+            </p>
+            <a
+                href="https://voyant-tools.org/?panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts&corpus=b1ed2e3cc67847667c711fe18500811d ">
+                <img src="gradu_cloud.png"
+                    alt="sanapilviesitys gradun johdannosta, sanapilvessä suurella sanat council, network, swedish, dataset">
+            </a>
+        </details>
+        <details>
+            <summary>
+                tehtävä 3
+            </summary>
+            <p>
+                Rakentakaa esimerkiksi Exceliä käyttäen yhteen taulukkoon Bag of
+                Words –esitys seuraavista lauseista:
+            </p>
+            <ul class="nodisclist">
+                <li>
+                    Pöllö huhuilee yössä
+                </li>
+                <li>
+                    Yössä huhuilee kummitus
+                </li>
+                <li>
+                    Kummitus huhuilee yössä hautausmaalla
+                </li>
+            </ul>
+            <p>
+                <strong>
+                    Algoritmi Bag of Words –esityksen luomiseen
+                </strong>
+            </p>
+            <ul class="nodisclist">
+                <li>
+                    Kerätään tekstissä esiintyvät uniikit sanat taulukon sarakkeiksi
+                </li>
+                <li>
+                    Jokaiselle virkkeelle aineistossa:
+                    <ul class="nodisclist">
+                        <li>
+                            Jokaiselle sanalle virkkeessä:
+                            <ul class="nodisclist">
+                                <li>
+                                    Laske sanan esiintymismäärä virkkeessä
+                                </li>
+                                <li>
+                                    Merkitse lukumäärä sanan osoittamaan sarakkeeseen
+                                </li>
+                        </li>
+                    </ul>
+            </ul>
+            </li>
+            </ul>
+        </details>
+        <details>
+            <summary>
+                tehtävä 4
+            </summary>
+            <p>
+                Tutustutaan nyt ryhmissä kahteen viimekerralla mainittuun yleiseen 
+                tekstinlouhinnan menetelmään klusterointiin ja luokitteluun.
+            </p>
+            <p>
+                Mikä ero näiden menetelmien välillä on? <br>
+                Keksittekö sovelluksia, johon jompi kumpi soveltuu paremmin?
+            </p>
+        </details>
+        <details>
+            <summary>
+                tehtävä 5
+            </summary>
+            <p>
+                Kun algoritmi mokaa. Pikaruokaketju KFC (Kentucky Fried Chicken) oli 
+                automatisoinut markkinointiaan itsenäisellä tietokoneohjelmalla eli botilla. 
+                Botin tarkoitus oli lähettää yrityksen sovelluksen kautta viestejä asiakkaille 
+                kansallisina juhlapäivinä. Marraskuussa 2022 markkinointi meni 
+                katastrofaalisesti vikaan. Lukekaa joko 
+                <a href="https://www.bbc.com/news/world-europe-63499057">BBC:n artikkeli</a> tai 
+                <a href="https://yle.fi/a/3-12043017/64-3-120230">ylen artikkeli</a>
+                aiheesta.<br>
+            </p>
+            <p>
+                Mitä tapahtui ja mistä epäonnistuminen mahdollisesti johtui?<br>
+                Mitä tapaus kertoo historiallisen tiedon ja kulttuurisen ymmärryksen 
+                merkityksestä?<br>
+                Mitä ajatuksia tapaus herättää?
+            </p>
+        </details>
         <h2>
             Osio 3
         </h2>
         <p>
-            Yhteenveto: paluu kylmään sotaan ja käytännön harjoituksia 
+            Yhteenveto: paluu kylmään sotaan ja käytännön harjoituksia
         </p>
+        <details>
+            <summary>
+                tehtävä 1
+            </summary>
+            <p>
+                Testataan sentimenttianalyysiä Microsoft Formsin avulla. Menkää oman 
+                ryhmän Forms sivulle. Valitkaa siellä mielestänne sopivin vaihtoehto
+                kuvaamaan kutakin asiakaspalautteen sävyä. Tämän jälkeen tutustutaan
+                koko ryhmän antamiin tuloksiin.
+            </p>
+            <p>
+                Pohtikaa sitten seuraavia kysymyksiä:<br>
+                Mitä käyttötarkoituksia sentimenttianalyysillä voi olla?<br>
+                Mitä ongelmia sentimenttianalyysiin saattaa liittyä?
+            </p>
+            <ul>
+                <li>
+                    <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Lp-HhwRz8ku68mPn-D88NGeVJEgrLe1NoO3KX2YMS1hURVVSV09CVTlTVEpPUERYSEk1VVJBQVpTMi4u">
+                        Ryhmä 1</a>
+                </li>
+                <li>
+                    <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Lp-HhwRz8ku68mPn-D88NGeVJEgrLe1NoO3KX2YMS1hUMEZIWERQVjJDNTJXOE8zQ0lTTVEyOUdEWC4u">
+                        Ryhmä 2</a>
+                </li>
+                <li>
+                    <a href="
+https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Lp-HhwRz8ku68mPn-D88NGeVJEgrLe1NoO3KX2YMS1hUREtPSFFKTklKV1dJTDkzT0c0TldWNVNQSy4u">
+                        Ryhmä 3</a>
+                </li>
+            </ul>
+        </details>
+        <details>
+            <summary>
+                kylmä sota ja satunnaisluvut
+            </summary>
+            <p>
+                Tilastotieteen historia -seminaariin tehty diaesitys MCMC -satunnaislukumenetelmistä.
+            </p>
+            <iframe src="Suurkaulio_MCMC_historia.pdf"
+            type="applicatin/pdf"
+            width="100%"
+            height="600px"
+            ></iframe>
+        </details>
         <details>
             <summary>
                 MCMC
@@ -186,7 +402,7 @@
             </p>
         </details>
         <h2>
-            Lisämateriaalia
+            Lisämateriaalia verkossa
         </h2>
         <ul>
             <li>
@@ -200,8 +416,13 @@
                 <a href="https://www.tidytextmining.com/">
                     text mining with r
                 </a>
-                -- tarvitsee tietämyksen R ohjelmointiympäristöstä ja 
-                kirjastojen / pakettien käytöstä. 
+                -- tarvitsee tietämyksen R ohjelmointiympäristöstä ja
+                kirjastojen / pakettien käytöstä.
+            </li>
+            <li>
+                Bayesian Workflow (englanniksi):
+                <a href="https://avehtari.github.io/Bayesian-Workflow/">bayesian workflow</a>
+                -- Bayesiläisen tilastotieteen menetelmistä, tarvitsee esitietoja tilastotieteestä.
             </li>
         </ul>
     </div>

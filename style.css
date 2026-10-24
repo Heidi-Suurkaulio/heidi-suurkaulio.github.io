@@ -1,5 +1,6 @@
 body {
-    background-color: floralwhite;
+    background-color: rgb(255, 250, 240);
+    margin: 1em 2em;
 }
 
 h1, h2 {
@@ -12,4 +13,21 @@ h1, h2 {
 
 p {
     page-break-inside: avoid;
+}
+.contentlist {
+    list-style-type: none;
+}
+.contentlist li {
+    padding-bottom: 0.2em;
+    border-bottom: thin dotted black;
+}
+.contentlist a {
+    color: black;
+    font-weight: bold;
+}
+.contentlist a:hover {
+    cursor: pointer;
+    color: rgb(255, 250, 240);
+    font-weight: bold;
+    background-color: black;
 }
